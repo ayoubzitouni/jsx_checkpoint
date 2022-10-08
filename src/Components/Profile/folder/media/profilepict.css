@@ -1,0 +1,12 @@
+.image_div{
+    z-index: 5;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.image_div img{
+    transform: translate(-25%);
+    aspect-ratio: 1/1;
+}

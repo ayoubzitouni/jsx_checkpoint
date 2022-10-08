@@ -1,5 +1,5 @@
 import React from 'react'
-
+import'./fullName.css'
 
 
 
@@ -10,10 +10,10 @@ function FullName() {
   while(fulln===""){
     fulln=prompt("whats your name please")
   }
-
+  
   return (
     <div>
-        <p>Name: {fulln}</p>
+        <p>Hello <span className='pname'>{fulln}</span> we are happy that you are here</p>
     </div>
   )
 }
